@@ -34,13 +34,19 @@
     git clone https://github.com/sugartastic81/AITutoring_EduElla.git
     cd AITutoring_EduElla
     ```
+    
+2. **Create and Activate a Virtual Environment**:
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+    ```
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
 
-3. **Run the Application**:
+4. **Run the Application**:
     ```sh
     python eduella.py
     ```
